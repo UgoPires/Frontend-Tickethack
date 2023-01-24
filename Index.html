@@ -1,73 +1,43 @@
 <!DOCTYPE html>
-<html>
 
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
-  <title>TicketHack</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicketHack</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div id="container">
-    <div id="header">
-      <div id="logo-container">
-        <h1 class="green">TicketHack</h1>
-      </div>
+     <div id ="header">
+        <div class = "titre">
+            <h2>Tickethack</h2>
+        </div>
+         <div class ="word">
+         <h4>Cart</h4>
+         <h4>Bookings</h4>
+         </div>
+    </div>
     
+    
+    <div id="container">
+    <div id="middle">
+        <div class ="texte">
+            <h1>Explore the world effortlessly by train!</h1>
+        </div>
+        <p>Compare, book and enjoy cheap prices for train tickets: your journey starts with Tickethack.</p>
+        <div id ="search">
+            <input id="departure" type="text" placeholder="Departure" />
+            <input id="arrival" type="text" placeholder="Arrival" />
+            <input id="date" type="date" placeholder="Date" />
+            <button id="btn-search">Search</button>
+        </div> 
+        <div id ="resultat">
+            <img src = "./image/train.png"/>
+            <h3>It's time to book your futur trip.</h3>
+        </div>
     </div>
-
-    <div id="content-left">
-      <div id="msg-container">
-        <div class="row">
-         <div class="text-container">
-          <input id="add-message" type="text" placeholder=" Departure" />
-          <input id="add-message" type="text" placeholder=" Arrival" />
-          
-          
-        
-        
-        
-      </div>
-    </div>
-  </div>
 </div>
-
-    <div id="content-right">
-    
-      <div id="msg-container">
-        <div class="row">
-         <div class="text-container">
-            
-          </div>
-          
-        </div>
-
-        
-          
-          <div class="text-container">
-            <h6></h6>
-            <p></p>
-          
-        </div>
-
-        
-          
-          <div class="text-container">
-            
-          </div>
-         
-        </div>
-       
-        </div>
-
-    <div id="footer">
-      <span></span>
-    </div>
-  </div>
-  
+     
 </body>
-
 </html>
