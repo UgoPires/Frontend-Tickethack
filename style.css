@@ -1,5 +1,5 @@
-*{
-  margin :0;
+* {
+  margin: 0;
   padding: 0;
 }
 body {
@@ -15,34 +15,23 @@ body {
   background-image: url(./image/background.jpg);
   background-position: center center;
   background-size: cover;
-
 }
 
 #header {
   background-color: rgb(255, 255, 255);
   display: flex;
-  
-  
-
 }
-.right{
+.right {
   justify-content: space-between;
   display: flex;
-
 }
-.cart{
+.cart {
   margin-right: 7%;
 }
-.Bookings{
+.Bookings {
   margin-right: 4;
 }
 
-h2 {
-  color: rgb(80, 141, 80);
-  font-size: 25px;
-  display: flex;
-  align-items: left;
-}
 .cart {
   color: black;
   display: flex;
@@ -52,7 +41,6 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  
 }
 .Bookings {
   color: black;
@@ -64,7 +52,6 @@ h2 {
   top: 0;
   right: 0;
 }
-  
 
 #middle {
   height: 30vh;
@@ -72,22 +59,18 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  
-
 }
 
-#recherche{
+#recherche {
   display: flex;
   align-items: center;
   justify-content: left;
   flex-direction: row;
-  
-
 }
 
 #search {
   flex-direction: column;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   height: 300px;
   width: 300px;
@@ -98,7 +81,7 @@ h2 {
   display: flex;
 }
 
-#departure{
+#departure {
   background-color: rgb(230, 226, 226);
   width: 80%;
   height: 10%;
@@ -108,23 +91,23 @@ h2 {
 }
 
 #arrival {
-  background-color: rgb(230,226,226);
+  background-color: rgb(230, 226, 226);
   width: 80%;
   height: 10%;
   border-style: hidden;
   display: flex;
 }
 
-#date{
-  background-color: rgb(230,226,226);
+#date {
+  background-color: rgb(230, 226, 226);
   width: 80%;
   height: 10%;
   border-style: hidden;
   display: flex;
 }
 
-#btn-search{
-  background-color:rgb(80, 141, 80);
+#btn-search {
+  background-color: rgb(80, 141, 80);
   border-color: rgb(80, 141, 80);
   width: 80%;
   height: 10%;
@@ -140,8 +123,9 @@ h2 {
   width: 300px;
   margin-left: 70px;
   margin-right: 70px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: white;
+  border: 1px solid black;
 }
 
 .texte {
@@ -151,12 +135,11 @@ h2 {
   font-size: 25px;
   justify-content: center;
   align-items: flex-start;
-
 }
 
 p {
   display: flex;
-  color: white;
+  color: rgb(13, 12, 12);
   font-size: 20px;
   justify-content: center;
   align-items: flex-start;
@@ -165,4 +148,25 @@ h3 {
   color: black;
   justify-content: center;
   align-items: center;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+  border-radius: 10px;
+}
+
+#logo {
+  color: rgb(80, 141, 80);
+  font-size: 25px;
+  display: flex;
+  align-items: left;
 }
