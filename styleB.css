@@ -3,26 +3,53 @@
     background-color: rgb(255, 255, 255);
   display: flex;
 }
-.right{
-    justify-content: space-between;
-    display: flex;
+
+.cart{
+  color: rgb(0, 0, 0);
+  margin-right: 8%;
+ position: absolute;
+  top: 0;
+  right: 0;
   
-  }
-  .cart{
-    margin-right: 8%;
-   position: absolute;
-    top: 0;
-    right: 0;
-    
-  }
-  .Bookings{
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 2%;
+}
+.Bookings{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+}
+
+.tickethack-btn {
+  color: rgb(80, 141, 80);
+  font-size: 25px;
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+}
+.cart-btn {
+  color: black;
+  display: flex;
+  font-size: 15x;
+  justify-content: flex-end;
+  align-items: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  
+}
+.bookings-btn {
+  color: black;
+  display: flex;
+  font-size: 15x;
+  justify-content: flex-end;
+  align-items: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
 }
   
-
 h2 {
     color: rgb(80, 141, 80);
     font-size: 25px;

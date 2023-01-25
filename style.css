@@ -15,6 +15,7 @@ body {
   background-image: url(./image/background.jpg);
   background-position: center center;
   background-size: cover;
+  
 
 }
 
@@ -31,30 +32,28 @@ body {
 
 }
 .cart{
-  margin-right: 7%;
-}
-.Bookings{
-  margin-right: 4;
-}
-
-h2 {
-  color: rgb(80, 141, 80);
-  font-size: 25px;
-  display: flex;
-  align-items: left;
-}
-.cart {
-  color: black;
-  display: flex;
-  font-size: 15x;
-  justify-content: flex-end;
-  align-items: right;
-  position: absolute;
+  color: rgb(0, 0, 0);
+  margin-right: 8%;
+ position: absolute;
   top: 0;
   right: 0;
   
 }
-.Bookings {
+.Bookings{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+}
+
+.tickethack-btn {
+  color: rgb(80, 141, 80);
+  font-size: 25px;
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+}
+.cart-btn {
   color: black;
   display: flex;
   font-size: 15x;
@@ -63,6 +62,19 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
+  text-decoration: none;
+  
+}
+.bookings-btn {
+  color: black;
+  display: flex;
+  font-size: 15x;
+  justify-content: flex-end;
+  align-items: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
 }
   
 
@@ -72,6 +84,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  border-radius: 5%;
   
 
 }
@@ -113,6 +126,7 @@ h2 {
   height: 10%;
   border-style: hidden;
   display: flex;
+  margin-bottom: 30%;
 }
 
 #date{
@@ -121,6 +135,7 @@ h2 {
   height: 10%;
   border-style: hidden;
   display: flex;
+  margin-bottom: 20%;
 }
 
 #btn-search{
