@@ -15,6 +15,7 @@ body {
   background-image: url(./image/background.jpg);
   background-position: center center;
   background-size: cover;
+  
 }
 
 #header {
@@ -27,22 +28,47 @@ body {
 }
 .cart {
   margin-right: 7%;
+.cart{
+  color: rgb(0, 0, 0);
+  margin-right: 8%;
+ position: absolute;
+  top: 0;
+  right: 0;
+  
 }
 .Bookings {
   margin-right: 4;
+.Bookings{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
 }
 
 .cart {
-  color: black;
-  display: flex;
-  font-size: 15x;
-  justify-content: flex-end;
-  align-items: right;
-  position: absolute;
+.cart{
+  color: rgb(0, 0, 0);
+  margin-right: 8%;
+ position: absolute;
   top: 0;
   right: 0;
+  
 }
-.Bookings {
+.Bookings{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+}
+
+.tickethack-btn {
+  color: rgb(80, 141, 80);
+  font-size: 25px;
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+}
+.cart-btn {
   color: black;
   display: flex;
   font-size: 15x;
@@ -51,6 +77,19 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+  text-decoration: none;
+  
+}
+.bookings-btn {
+  color: black;
+  display: flex;
+  font-size: 15x;
+  justify-content: flex-end;
+  align-items: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
 }
 
 #middle {
@@ -59,6 +98,9 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  border-radius: 5%;
+  
+
 }
 
 #recherche {
@@ -79,6 +121,7 @@ body {
   border-radius: 20px;
   background-color: white;
   display: flex;
+  text-align: center;
 }
 
 #departure {
@@ -88,6 +131,7 @@ body {
   border-style: hidden;
   display: flex;
   justify-content: flex-start;
+  border-radius: 10px;
 }
 
 #arrival {
@@ -96,23 +140,40 @@ body {
   height: 10%;
   border-style: hidden;
   display: flex;
+  margin-bottom: 30%;
+  border-radius: 10px;
 }
 
 #date {
   background-color: rgb(230, 226, 226);
+
+#date{
+  background-color: rgb(230,226,226);
   width: 80%;
   height: 10%;
   border-style: hidden;
   display: flex;
+  margin-bottom: 20%;
+  border-radius: 10px;
 }
 
 #btn-search {
   background-color: rgb(80, 141, 80);
+
+#btn-search{
+  background-color:rgb(80, 141, 80);
   border-color: rgb(80, 141, 80);
   width: 80%;
   height: 10%;
   display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "FreeMono", sans-serif;
+  border-radius: 10px;
 }
+  
+
 
 #resultat {
   display: flex;
@@ -135,6 +196,7 @@ body {
   font-size: 25px;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
 p {
@@ -170,3 +232,4 @@ h3 {
   display: flex;
   align-items: left;
 }
+

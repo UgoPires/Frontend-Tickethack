@@ -1,26 +1,64 @@
+*{
+  margin :0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  
+}
+
 #header {
     background-color: rgb(255, 255, 255);
   display: flex;
 }
 
-.right{
-    justify-content: space-between;
-    display: flex;
+
+.cart{
+  color: rgb(0, 0, 0);
+  margin-right: 8%;
+ position: absolute;
+  top: 0;
+  right: 0;
   
-  }
-  .cart{
-    margin-right: 8%;
-   position: absolute;
-    top: 0;
-    right: 0;
-    
-  }
-  .Bookings{
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 2%;
 }
+.Bookings{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2%;
+}
+
+.tickethack-btn {
+  color: rgb(80, 141, 80);
+  font-size: 25px;
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+}
+.cart-btn {
+  color: black;
+  display: flex;
+  font-size: 15x;
+  justify-content: flex-end;
+  align-items: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  
+}
+.bookings-btn {
+  color: black;
+  display: flex;
+  font-size: 15x;
+  justify-content: flex-end;
+  align-items: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
+  
 
 h2 {
     color: rgb(80, 141, 80);
@@ -39,27 +77,77 @@ h2 {
     top: 0;
     right: 0;
 }
+#container {
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 #container {
-    background-color: rgb(226, 226, 226);
-    display: flex;
-    height: 100vh;
-    background-position: center center;
-    background-size: cover;
-    justify-content: center;
-    align-items: center;
+  height: 91.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff2f1;
+
 }
 
-#middle{
-    display: flex;
-    background-color: white;
-    height: 20%;
-    width: 50%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#cartContainer {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
 }
-p{
-    color: black;
-    font-size: 15px;
+
+#cartTitle {
+    margin-top: 30px;
+}
+
+.item {
+  background-color: #f5eeee;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#total {
+  width: 100%;
+  background-color: #02153c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px 10px;
+border-bottom-right-radius: 10px 10px;
+}
+
+#sum{
+margin-left: 20px;
+}
+
+#purchase{
+ margin-right: 20px;
+}
+
+button {
+  background-color: #4da985;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }

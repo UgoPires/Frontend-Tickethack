@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>TicketHack-Cart</title>
     <link rel="stylesheet" href="styleC.css">
 </head>
 <body>
     <div id ="header">
         <div class = "titre">
-            <h2>Tickethack</h2>
-        </div>
-        <div class="right">
-            <div class ="cart">
-             <h4>Cart</h4>
-            </div>
-             <div class="Bookings">
-                <h4>Bookings</h4>
-             </div>
-            </div>
-             
-        </div>
-        <div id="container">
-            <div id ="middle">
-                <p>No ticket in your cart.</p>
-                <p>Why not plan a trip?</p>
-            </div>
+            <h2>
+                <a href="index.html" class="tickethack-btn">Tickethack</a>
+              </h2>
+              
     </div>
+    </div>
+    
+    <div class="right">
+    <div class ="cart">
+     <h4>
+       <a href="cart.html" class= "cart-btn">Cart</a>
+
+     </h4>
+    </div>
+     <div class="Bookings">
+        <h4>
+           <a href="bookings.html" class="bookings-btn">Bookings</a>
+        </h4>
+     </div>
+    </div>
+     
+</div>
+        <div id="container">
+            
+                <div id="cartContainer">
+                    <p id="cartTitle">My cart</p>
+            <div class="item">
+            <p id="trip">Paris > Lyon</p>
+            <p id="time">20:15</p>
+            <p id="price"> 103€</p>
+            <button id="delete">X</button>
+            </div> 
+            <div id="total">
+                <p id="sum">total 103 €</p>
+                <button id="purchase">purchase</button>
+            </div>       
+             </div>
+             
+            </div>
+                
+           
+    
     
     <script src="script.js"></script>
 </body>
