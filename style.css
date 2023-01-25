@@ -1,6 +1,6 @@
-*/{
+*{
   margin :0;
-  padding: 0%;
+  padding: 0;
 }
 body {
   margin: 0;
@@ -8,55 +8,67 @@ body {
 }
 
 #container {
-  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
   background-image: url(./image/background.jpg);
   background-position: center center;
   background-size: cover;
-  
 
 }
 
 #header {
   background-color: rgb(255, 255, 255);
   display: flex;
+
 }
 
 h2 {
   color: rgb(80, 141, 80);
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   align-items: left;
 }
 .word {
   color: black;
   display: flex;
-  font-size: 10px;
-  flex-direction: row;
-  align-items: right;
-  justify-content: right;
+  font-size: 15x;
+  justify-content: flex-end;
+  flex-direction: column;
+  
 }
 
 #middle {
-  height: 100vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  
+
+}
+
+#recherche{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  
 
 }
 
 #search {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
   height: 300px;
   width: 300px;
   margin-left: 70px;
   margin-right: 70px;
   border-radius: 20px;
   background-color: white;
+  display: flex;
 }
 
 #departure{
@@ -64,6 +76,8 @@ h2 {
   width: 80%;
   height: 10%;
   border-style: hidden;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #arrival {
@@ -71,6 +85,7 @@ h2 {
   width: 80%;
   height: 10%;
   border-style: hidden;
+  display: flex;
 }
 
 #date{
@@ -78,6 +93,7 @@ h2 {
   width: 80%;
   height: 10%;
   border-style: hidden;
+  display: flex;
 }
 
 #btn-search{
@@ -85,6 +101,7 @@ h2 {
   border-color: rgb(80, 141, 80);
   width: 80%;
   height: 10%;
+  display: flex;
 }
 
 #resultat {
@@ -121,11 +138,4 @@ h3 {
   color: black;
   justify-content: center;
   align-items: center;
-}
-
-h4{
-
-  display: flex;
-  align-items: center;
-  right:0%;
 }
