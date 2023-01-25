@@ -1,3 +1,11 @@
+*{
+  margin :0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  
+}
 
 #header {
     background-color: rgb(255, 255, 255);
@@ -84,7 +92,66 @@ h2 {
     justify-content: center;
     align-items: center;
 }
-p{
-    color: black;
-    font-size: 15px;
+#container {
+  height: 91.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff2f1;
+
+}
+
+#cartContainer {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#cartTitle {
+    margin-top: 30px;
+}
+
+.item {
+  background-color: #f5eeee;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#total {
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom-left-radius: 10px 10px;
+border-bottom-right-radius: 10px 10px;
+}
+
+#sum{
+margin-left: 37%;
+border-top: #b6b2b2;
+color: rgb(80, 141, 80);
+
+
+}
+
+
+button {
+  background-color: #4da985;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }

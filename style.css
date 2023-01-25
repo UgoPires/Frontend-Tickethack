@@ -109,6 +109,7 @@ body {
   border-radius: 20px;
   background-color: white;
   display: flex;
+  text-align: center;
 }
 
 #departure{
@@ -141,9 +142,16 @@ body {
 #btn-search{
   background-color:rgb(80, 141, 80);
   border-color: rgb(80, 141, 80);
-  width: 80%;
+  width: 70%;
   height: 10%;
   display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Impact", sans-serif;
+  
+
+  
 }
 
 #resultat {
@@ -166,6 +174,7 @@ body {
   font-size: 25px;
   justify-content: center;
   align-items: flex-start;
+  
 
 }
 
@@ -181,3 +190,5 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+
