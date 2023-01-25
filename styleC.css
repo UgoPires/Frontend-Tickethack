@@ -3,12 +3,30 @@
   display: flex;
 }
 
+.right{
+    justify-content: space-between;
+    display: flex;
+  
+  }
+  .cart{
+    margin-right: 8%;
+   position: absolute;
+    top: 0;
+    right: 0;
+    
+  }
+  .Bookings{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2%;
+}
+
 h2 {
     color: rgb(80, 141, 80);
     font-size: 25px;
     display: flex;
-    align-items: stretch;
-    justify-content: left;
+    align-items: left;
 }
 .word {
     color: black;
